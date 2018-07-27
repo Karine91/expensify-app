@@ -1,2 +1,4 @@
 node_modules/
 public/dest/
+.env.test
+.env.development
