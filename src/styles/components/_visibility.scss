@@ -1,0 +1,12 @@
+.show-for-mobile {
+    @include atSmall{
+        display: none;
+    }
+}
+
+.show-for-desktop {
+    display: none;
+    @include atSmall{
+        display: block;
+    }
+}

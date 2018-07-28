@@ -1,0 +1,21 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: $m-size;
+
+    @include atSmall {
+        flex-direction: row;
+        margin-bottom: $l-size;
+    }
+
+    &__item {
+        display: flex;
+        flex: 1 0 auto;
+        margin-bottom: $s-size;
+
+        @include atSmall {
+            margin: 0 $s-size 0 0;
+        }
+    }
+}

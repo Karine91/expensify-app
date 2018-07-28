@@ -1,0 +1,18 @@
+.btn {
+    font-size: $font-size-large;
+    background-color: $blue;
+    font-weight: 300;
+    color: white;
+    padding: $s-size;
+    border: none;
+    line-height: 1;
+    display: inline-block;
+
+    &--link {
+        background: none;
+    }
+
+    &--gray {
+        background-color: $light-gray;
+    }
+}
